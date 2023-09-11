@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS first examples</title>
+
+    <!-- USIAMO SEMPRE QUESTO METODO -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <style> quasi mai usato
+    #main-title {
+        color: green
+    }    
+    </style> -->
+</head>
+<body>
+    <!-- Lo stile inline - quasi mai usato 
+    <h1 style="color: red">Sono il titolo principale</h1>-->
+    <!-- Identificatore univoco nella pagina html -->
+    <h1 id="main-title">Sono il titolo principale</h1>
+    
+    <p>Green paragraph</p>
+    <p class="red-text big-text">Red paragraph</p>
+
+    <h3 class="red-text big-text">Titolo secondario</h3>
+
+    <div class="yellow">
+        <h4>Titolo interno</h4>
+        <p class="inner-text">Testo all'interno del div</p>
+    </div>
+
+    <div class="pink">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dolores tempora cupiditate voluptate qui, eveniet illo velit autem dignissimos. Ducimus ut aliquid cum sequi quae, repellendus explicabo dolor dolore voluptas.</p>
+        <p class="inner-text">Testo all'interno del div</p>
+    </div>
+
+    <p class="inner-text">Testo all'interno del div</p>
+    <!-- Verde perchè non c'è nessun .inner-text da solo nel style.css, quindi prende il color del p -->
+
+    <!-- Esempi di width e height -->
+    <div class="square">
+        <div class="width-50"></div>
+    </div>
+
+    <img class="rectangle-image" src="img/ciambelle.jpeg" alt="immagine con ciambelle">
+
+    <span class="style">Elemento span</span>
+   
+
+    <!-- border -->
+    <div class="square border">con border</div>
+
+    <!-- Proprierà testo -->
+    <p class="my-text">Lorem <span class="error">ipsum, dolor </span>sit amet consectetur adipisicing elit. Reiciendis id nemo aut eum nesciunt voluptatum porro. Dolorem inventore iusto sit dicta blanditiis rerum, eaque harum incidunt libero mollitia. Cumque, quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, corrupti neque. Mollitia impedit voluptates cumque. Asperiores sapiente cum quam at vero <span class="error">perferendis</span> eius! Veritatis repellat ullam distinctio ipsum unde aliquam.</p>
+
+    <!-- Background image -->
+    <div class="box">Amo le ciambelle</div>
+
+
+
+    <!-- aggiungo solo un po' di spazio per vedere meglio -->
+    <br>
+    <br>
+    <hr>
+</body>
+</html>

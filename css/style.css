@@ -1,0 +1,99 @@
+/* body {
+    background-color: lightcoral;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* # = id */
+#main-title {
+    color: blue;
+}
+
+/* Selettore del tag --> mi seleziona tutti i p nella pagina */
+p {
+    color: rgb(0, 128, 0, 1);
+}
+
+.red-text {
+    color: red;
+}
+
+.big-text {
+    font-size:24px;
+}
+
+/* inner-text nel yellow deve essere viola */
+
+/* inner-text nel pink deve essere marrone */
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow .inner-text {
+    color: violet;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.pink .inner-text {
+    color: brown;
+}
+
+/* Width e height */
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.width-50 {
+    width: 50%;
+    height: 80px;
+    background-color: green;
+}
+
+.rectangle-image {
+    height: 200px;
+}
+
+.style {
+    background-color: rgb(255, 255, 0);
+    height: 10px;
+}
+
+/* border */
+.border {
+    /* border-width: 5px;
+    border-color: blue;
+    border-style: solid; */
+    border: 5px solid blue;
+    border-bottom-color: orange;
+    border-left-style: dotted;
+}
+
+/* Proprietà testo */
+.my-text {
+    text-align: justify;
+    /* text-decoration: line-through; */
+}
+
+.error {
+    text-decoration: line-through;
+}
+
+/* Background image */
+.box {
+    width: 400px;
+    height: 200px;
+    border: solid black;
+    background-image: url(../img/ciambelle.jpeg);
+    /* background-repeat: no-repeat;  */
+    background-position: center;
+    background-size: contain; 
+    /* background-size: cover; */
+}
